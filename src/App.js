@@ -53,9 +53,9 @@ function App() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">{PROFILE_INFO.name}</h1>
               <p className="text-xl mb-6">{PROFILE_INFO.title}</p>
               <div className="flex space-x-4">
-                <a href="https://github.com/Tharun928" className="hover:text-blue-200"><Github className="w-6 h-6" /></a>
-                <a href="https://www.linkedin.com/in/tharun-reddy-829197298/" className="hover:text-blue-200"><Linkedin className="w-6 h-6" /></a>
-                <a href='mailto:tharunallamadugu@gmail.com' className="hover:text-blue-200"><Mail className="w-6 h-6" /></a>
+                <a href={PROFILE_INFO.github} target='_blank' className="hover:text-blue-200"><Github className="w-6 h-6" /></a>
+                <a href={PROFILE_INFO.linkedin} target='_blank' className="hover:text-blue-200"><Linkedin className="w-6 h-6" /></a>
+                <a href={PROFILE_INFO.mail} className="hover:text-blue-200"><Mail className="w-6 h-6" /></a>
               </div>
             </div>
             <div className="md:w-1/3">
@@ -189,8 +189,8 @@ function App() {
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <div className="flex justify-center space-x-6 mb-4">
-            <a href={PROFILE_INFO.github} className="hover:text-blue-400"><Github className="w-6 h-6" /></a>
-            <a href={PROFILE_INFO.linkedin} className="hover:text-blue-400"><Linkedin className="w-6 h-6" /></a>
+            <a href={PROFILE_INFO.github} target='_blank' className="hover:text-blue-400"><Github className="w-6 h-6" /></a>
+            <a href={PROFILE_INFO.linkedin} target='_blank'  className="hover:text-blue-400"><Linkedin className="w-6 h-6" /></a>
             <a href={PROFILE_INFO.mail} className="hover:text-blue-400"><Mail className="w-6 h-6" /></a>
           </div>
           <p>&copy; {new Date().getFullYear()} {PROFILE_INFO.name}. All rights reserved.</p>
