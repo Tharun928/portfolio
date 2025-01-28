@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Github, Mail, Linkedin, ExternalLink, Code2, Brain, User, Send } from 'lucide-react';
-
+import pic from './assets/Tharunpic.jpg'
 // Replace these with your actual information
 const PROFILE_INFO = {
-  name: "John Doe",
-  title: "Full Stack Developer",
-  image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400&h=400",
-  about: "Passionate full-stack developer with 5 years of experience building web applications. I specialize in React, Node.js, and cloud technologies.",
+  name: "Allamadugu Tharun",
+  title: "Passionate Sofware Developer",
+  about: "Aspiring software developer eager to apply academic knowledge and practical skills gained from full-stack projects.Seeking an opportunity to learn and grow in a supportive team environment while delivering value through innovative solutions.",
   skills: [
     { name: "React", icon: <Code2 className="w-8 h-8" /> },
     { name: "Node.js", icon: <Code2 className="w-8 h-8" /> },
@@ -58,7 +57,7 @@ function App() {
             </div>
             <div className="md:w-1/3">
               <img 
-                src={PROFILE_INFO.image} 
+                src={pic} 
                 alt="Profile" 
                 className="rounded-full w-64 h-64 object-cover border-4 border-white shadow-lg"
               />
