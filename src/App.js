@@ -17,7 +17,7 @@ const PROFILE_INFO = {
   ],
   projects: [
     {
-      title: "E-commerce Platform",
+      title: "Face Recognition",
       description: "A full-stack e-commerce platform built with React and Node.js",
       github: "https://github.com/username/project",
       live: "https://project.com",
