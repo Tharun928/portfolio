@@ -20,7 +20,7 @@ const PROFILE_INFO = {
       title: "Face Recognition",
       description: "Real-time face detection and recognition using webcam Labeling and recognition of known faces Displaying bounding boxes and labels for recognized faces",
       github: "https://github.com/Tharun928/Face_Recognition",
-      live: "https://project.com",
+      live: "https://face-recognition-neon-zeta.vercel.app/",
       image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800"
     },
     {
