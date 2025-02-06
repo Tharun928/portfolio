@@ -24,10 +24,10 @@ const PROFILE_INFO = {
       image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates",
-      github: "https://github.com/username/project2",
-      live: "https://project2.com",
+      title: "Leaflet Map with Distance",
+      description: "This project is an interactive web application that allows users to interact with a Leaflet map",
+      github: "https://github.com/Tharun928/map-main",
+      live: "https://map-main.vercel.app/",
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800"
     }
   ]
